@@ -26,7 +26,7 @@ The challenge consists of 5 tasks with increasing complexity. Each one focuses o
 ### 🛠 Prerequisites
 
 - [Node.js + npm](https://nodejs.org/)
-- [GitHub CLI](https://git-scm.com/downloads)
+- [Git CLI](https://git-scm.com/downloads)
 
 ### 🚀 Quick Start
 1. **Create or log in to your Codeforces account**
@@ -249,7 +249,7 @@ New to Tact? These quickstart guides and tools will get you up to speed fast:
 
 Join the developer chats to ask questions and connect with other participants:
 
-- [Tact Smart Battle chat (for communication)]() //TODO
+- [Tact Smart Battle chat (for communication)](https://t.me/tact_smart_battle)
 - [Tact Telegram](https://t.me/tactlang)
 - [TON Dev Chat (English)](https://t.me/tondev_eng)
 - [TON Dev Chat (Russian)](https://t.me/tondev)
