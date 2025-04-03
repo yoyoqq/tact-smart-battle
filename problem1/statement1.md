@@ -75,7 +75,7 @@ struct ProposalState {
 
 #### 2.5 Solution template
 
-You can find the contract interfaces described above in [solution1.template.tact](./solution1.template.tact).
+You can find the contract interfaces described above in [solution1.tact](./solution1.tact).
 
 ### 3. Public Tests
 

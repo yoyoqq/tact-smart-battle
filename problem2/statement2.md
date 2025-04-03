@@ -99,7 +99,7 @@ struct ProposalState {
 
 #### 2.4 Solution template
 
-You can find the contract interfaces described above in [solution2.template.tact](./solution2.template.tact).
+You can find the contract interfaces described above in [solution2.tact](./solution2.tact).
 Notice that you can add new receivers to your contracts in addition to the ones specified in the template.
 
 ### 3. Public tests

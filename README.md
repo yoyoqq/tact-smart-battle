@@ -159,6 +159,32 @@ If Task 3 has 10 private tests → each test is worth `20 points`.
 
 The logic score is calculated proportionally:
 
+Logic Score = (Number of passed private tests / Total tests) × Max logic score
+
+
+
+
+### ⚡ Gas Bonus
+
+To encourage optimization, each task also includes a **Gas Bonus** — awarded **only if your solution passes all private tests**.
+
+Contracts are compared based on actual gas usage during test runs.
+
+- The most efficient solution gets the **full gas bonus**.
+- Other full-passing solutions receive a **scaled bonus** based on proximity to the Tact team's solution.
+
+---
+
+## 🔒 Notes
+
+- You can resubmit improved solutions. Only the **highest scoring attempt per task** will be used in the final result.
+
+- Partial solutions are still counted for logic points, but **do not qualify for gas bonus**.
+
+---
+
+Good luck, and aim for both correctness and efficiency! ⚔️🚀
+
 ---
 
 ## 🏆 Prize Pool
@@ -211,9 +237,8 @@ New to Tact? These quickstart guides and tools will get you up to speed fast:
 
 ### 🛠 Editor Support & Tools
 
-- [💻 Tact VS Code Extension](https://marketplace.visualstudio.com/items?itemName=tonstudio.vscode-tact) ![img.png](images/img.png)
-
-
+- [💻 Tact VS Code Extension](https://marketplace.visualstudio.com/items?itemName=tonstudio.vscode-tact) 
+    - <img src=images/img.png width="300"/>
 - [🌐 TON Web IDE (online editor)](https://ide.ton.org/)
 - [🔧 Blueprint CLI](https://github.com/ton-org/blueprint)
 - [📁 Tact Project Template](https://github.com/tact-lang/tact-template)
