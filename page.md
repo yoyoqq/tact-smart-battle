@@ -5,7 +5,7 @@
 **Platform:** [Codeforces](https://codeforces.com/)  
 **Prize Pool:** $20,000 in Toncoin
 
-⏰ **[Check your local time here](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Tact+Smart+Battle&iso=20250421T12&p1=110&ah=168)**
+⏰ **[Check your local time here](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Tact+Smart+Battle&iso=20250421T12&p1=166)**
 
 👉 **[Register for the Challenge on Codeforces](https://codeforces.com/contest/XXXXX)**
 
@@ -74,7 +74,7 @@ Prepare your IDE, sharpen your coding skills, and deploy your best smart contrac
 
 👉 [Join the Telegram Chat](https://t.me/tact_smart_battle) for announcements, support, and discussions.
 
-⏰ **[Check your local time here](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Tact+Smart+Battle&iso=20250421T12&p1=110&ah=168)**
+⏰ **[Check your local time here](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Tact+Smart+Battle&iso=20250421T12&p1=166)**
 
 👉 **[Register for the Challenge on Codeforces](https://codeforces.com/contest/XXXXX)**
 
