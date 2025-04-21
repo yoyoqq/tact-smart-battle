@@ -211,7 +211,7 @@ Top 128 participants will receive Toncoin prizes and SBTs (Soulbound Tokens).
 
 - Participants solve tasks **locally** in this repository.
 - Each solution is submitted **individually via Codeforces**: [codeforces.com](https://codeforces.com/register).
-- Final deadline: **April 15, 23:59 (UTC+3)**.
+- Final deadline: **April 28, 12:00 (UTC+3)**.
 - Do **not** make public your solutions before the deadline.
 - If at least one solution passes, you will be included in the final leaderboard.
 - You can use all the features of the language
