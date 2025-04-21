@@ -24,6 +24,7 @@ Each deployed `Proposal` contract must satisfy the following requirements:
 7. If a vote is not accepted, an exit code indicating unsuccessful execution must be thrown.
 8. Your contracts' receivers should not consume too much gas: most tests won't send more than 0.1 Toncoin (the reference solution consumes way below this limit).
 9. The proposal contracts should reimburse the excess funds sent by voters: it cannot freeze funds, burn them, or send them to someone else.
+10. If someone tries to impersonate the `ProposalMaster` contract, the `Proposal` contract should throw exit code `2025`.
 
 ### 2. Interfaces
 
@@ -54,9 +55,9 @@ message DeployNewProposal {
 }
 ```
 
-If the current [Unix time](https://en.wikipedia.org/wiki/Unix_time) is greater than the value of the `votingEndingAt` field, no more votes will be accepted by the `Proposal` contract which gets deployed with this deadline information.
+If the current [Unix time](https://en.wikipedia.org/wiki/Unix_time) is greater than the value of the `votingEndingAt` field, the new `Proposal` contract must not get deployed.
 
-The `ProposalMaster` contract needs to have a getter named `proposalState` to retrieve the id of the next proposal with the following signature:
+The `ProposalMaster` contract needs to have a getter named `nextProposalId` to retrieve the id of the next proposal with the following signature:
 
 ```tact
 get fun nextProposalId(): Int
@@ -103,6 +104,8 @@ struct ProposalState {
     votingEndingAt: Int as uint32;
 }
 ```
+
+If the current [Unix time](https://en.wikipedia.org/wiki/Unix_time) is greater than the value of the `votingEndingAt` field, no more votes will be accepted by the `Proposal` contract which gets deployed with this deadline information.
 
 #### 2.4 Solution template
 
