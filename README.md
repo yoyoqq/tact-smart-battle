@@ -163,14 +163,18 @@ This ensures your solution is fully correct and production-ready before it’s r
 
 
 
-### ⚡ Gas Bonus
+### ⚙️ Gas Bonus
 
 To encourage optimization, each task also includes a **Gas Bonus** — awarded **only if your solution passes all private tests**.
 
 Contracts are compared based on actual gas usage during test runs.
 
-- The most efficient solution gets the **full gas bonus**.
-- Other full-passing solutions receive a **scaled bonus** based on proximity to the Tact team's solution.
+- The most gas-efficient solution gets the **full gas bonus**.
+- Other full-passing solutions receive a **scaled bonus** based on how close they are to the reference solution.
+
+> 💡 If your solution is **more efficient than the reference**, you can **score above the listed Total Points** for that task.
+
+Gas really matters. Optimize smartly.
 
 ---
 
