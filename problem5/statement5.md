@@ -90,7 +90,7 @@ For a deeper understanding of how your contract will be tested and to ensure ful
 Use the following command to execute the automated tests specifically for Level 5: 
 
 ```shell
-npm run test public5
+npm run test5
 ```
 
 The `test` script automatically compiles all the Tact contracts before running the tests.

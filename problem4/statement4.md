@@ -116,7 +116,7 @@ For a deeper understanding of how your contract will be tested and to ensure ful
 Use the following command to execute the automated tests specifically for Level 2: 
 
 ```shell
-npm run test public4
+npm run test4
 ```
 
 The `test` script automatically compiles all the Tact contracts before running the tests.

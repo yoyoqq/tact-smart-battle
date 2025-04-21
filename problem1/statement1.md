@@ -84,7 +84,7 @@ For a deeper understanding of how your contract will be tested and to ensure ful
 Use the following command to execute the automated tests specifically for Level 1: 
 
 ```shell
-npm run test public1
+npm run test1
 ```
 
 The `test` script automatically compiles all the Tact contracts before running the tests.
