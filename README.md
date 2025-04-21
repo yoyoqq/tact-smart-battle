@@ -35,7 +35,7 @@ The challenge consists of 5 tasks with increasing complexity. Each one focuses o
 
 
 2. **Register for the Tact Smart Battle challenge**
-    - After logging in, visit the official challenge page on Codeforces (link will be provided). // TODO
+    - After logging in, visit the official challenge page on [Codeforces](https://codeforces.com/contests/2105) ([Registration guide](registration.md)).
     - Complete the registration form.
     - Be sure to enter your:
         - **Telegram username** — for community contact and support
@@ -57,9 +57,9 @@ The challenge consists of 5 tasks with increasing complexity. Each one focuses o
     - Each task has a separate .tact file
     - You can run public tests using:
        ```bash
-      npm run test public1       # test for Task 1
-       npm run test public2       # test for Task 2
-       npm run test               # run all public tests
+      npm run test1      # test for Task 1
+       npm run test2      # test for Task 2
+       npm run test       # run all public tests
       ```
 6. **Submit your solution on Codeforces**
 
@@ -106,8 +106,7 @@ Leaderboard Example
 
 The system provides feedback for the following types of errors:
 
-- **Compilation errors** — if your `.tact` file does not compile, you'll see the compilation output.
-- **Runtime errors** — if your contract crashes during test execution (e.g., throws an exit code), the error and exit code will be shown.
+- **Compilation errors** — if your `.tact` file fails to compile or crashes during test execution (e.g., throws an exit code), the error message and details will be shown.
 - **Test failures** — if your contract does not pass the required interface or logic checks, the failed test cases will be displayed.
 
 This helps you improve your solution and resubmit until you get the best possible result.
@@ -152,14 +151,14 @@ Each task includes:
 
 ### ✅ Logic Score
 
-Each task contains a set of **private tests**. Your logic score depends on how many of them you pass.
+Each task includes a set of **private tests**. You earn logic points **only if you pass all of them**.
 
-For example:  
-If Task 3 has 10 private tests → each test is worth `20 points`.
+> For example:  
+> If Task 3 has 10 private tests, and you pass all 10 — you receive the full **200 points**.  
+> If you fail even one test — you get **0** for the logic part.
 
-The logic score is calculated proportionally:
+This ensures your solution is fully correct and production-ready before it’s rewarded.
 
-Logic Score = (Number of passed private tests / Total tests) × Max logic score
 
 
 
@@ -212,7 +211,7 @@ Top 128 participants will receive Toncoin prizes and SBTs (Soulbound Tokens).
 
 - Participants solve tasks **locally** in this repository.
 - Each solution is submitted **individually via Codeforces**: [codeforces.com](https://codeforces.com/register).
-- Final deadline: **April 15, 23:59 (UTC+3)**. //TODO Date
+- Final deadline: **April 15, 23:59 (UTC+3)**.
 - Do **not** make public your solutions before the deadline.
 - If at least one solution passes, you will be included in the final leaderboard.
 - You can use all the features of the language
@@ -221,9 +220,9 @@ Top 128 participants will receive Toncoin prizes and SBTs (Soulbound Tokens).
 
 ## 📅 Timeline
 
-- 📝 Registration: [codeforces.com/register](https://codeforces.com/register) //TODO (link)
+- 📝 Registration: [codeforces.com/register](https://codeforces.com/contests/2105)
 - 🚀 Challenge is open now
-- 🛑 Final Submission Deadline: **April 15, 23:59 (UTC+3)** //TODO Date
+- 🛑 Final Submission Deadline: **April 28, 12:00 (UTC+3)**
 
 ---
 
@@ -258,5 +257,3 @@ Join the developer chats to ask questions and connect with other participants:
 ---
 
 Good luck, and may your contracts be gas-efficient and bug-free ⚡
-
-   
